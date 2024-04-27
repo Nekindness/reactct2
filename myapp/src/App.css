@@ -1,50 +1,44 @@
-/* Общие стили для приложения */
 .app {
-  display: flex; /* Размещение элементов внутри контейнера в виде строки */
-  justify-content: space-between; /* Равномерное распределение пространства между элементами */
-  align-items: center; /* Выравнивание элементов по центру по вертикали */
-  padding: 20px; /* Отступы вокруг содержимого */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-/* Стили для списка продуктов */
 .product-list {
-  display: flex; /* Размещение элементов внутри контейнера в виде строки */
-  flex-wrap: wrap; /* Разрешение переноса элементов на новую строку при необходимости */
-  gap: 20px; /* Расстояние между элементами */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-/* Стили для отдельного продукта */
 .product-item {
-  border: 2px solid #ccc; /* Граница вокруг элемента */
-  padding: 15px; /* Внутренние отступы */
-  width: 200px; /* Ширина элемента */
-  display: flex; /* Размещение элементов внутри контейнера в виде строки */
-  flex-direction: column; /* Расположение элементов в столбец */
-  align-items: center; /* Выравнивание элементов по центру по горизонтали */
+  border: 2px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Стили для кнопок управления количеством */
 .product-buttons {
-  display: flex; /* Размещение элементов внутри контейнера в виде строки */
-  gap: 10px; /* Расстояние между кнопками */
+  display: flex;
+  gap: 10px;
 }
 
-/* Стили для кнопки удаления товара */
 .delete-button {
-  background-color: #ff6347; /* Цвет фона кнопки */
-  color: #fff; /* Цвет текста */
-  padding: 5px 10px; /* Внутренние отступы */
-  cursor: pointer; /* Изменение вида курсора при наведении */
-  border: 1px solid #ff6347; /* Граница вокруг кнопки */
-  margin-top: 10px; /* Верхний отступ */
+  background-color: #ff6347;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ff6347;
+  margin-top: 10px;
 }
 
-/* Стили для кнопки добавления нового товара */
 .add-button {
-  background-color: #dc6c17; /* Цвет фона кнопки */
+  background-color: #dc6c17;
   color: #fff;
-  padding: 60px 10px; /* Внутренние отступы */
-  cursor: pointer; /* Изменение вида курсора при наведении */
-  border: 1px solid #dc6c17; /* Граница вокруг кнопки */
-  margin-top: 10px; /* Верхний отступ */
+  padding: 60px 10px;
+  cursor: pointer;
+  border: 1px solid #dc6c17;
+  margin-top: 10px;
 }
